@@ -1,0 +1,14 @@
+.centercontent {
+  display: flex;
+  justify-content: space-around;
+}
+
+#main {
+  background-image: url('../images/cheers.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+
+.left, .right {
+  margin-top: 6%;
+}
