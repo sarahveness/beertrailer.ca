@@ -1,3 +1,13 @@
+/*         GLOBAL            */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+
+/*           MAIN           */
+
 .centercontent {
   display: flex;
   justify-content: space-around;
@@ -9,6 +19,80 @@
   background-repeat: none;
 }
 
+#buy {
+  background-image: url('../images/fairgrounds.jpg');
+}
+
 .left, .right {
-  margin-top: 6%;
+  margin: 4.5% -9%;
+  color: lightgray;
+  font-size: 4em;
+  font-weight: 300;
+}
+
+
+/*         RENT           */
+
+#rent {
+  background-image: url('../images/fairgrounds.jpeg');
+  background-size: cover;
+  background-repeat: none;
+}
+
+.rent {
+  margin-left: 11%;
+  margin-top: 4px;
+}
+
+.rent img {
+  height: 75px;
+}
+
+.perfectpour {
+  width: 50%;
+  background-color: rgba(255,255,255,0.6);
+  font-size: 1.75em;
+  position: relative;
+  margin: 0 0 0 13%;
+  padding: 20px;
+}
+
+.pricecontainer {
+  background-color: rgba(255,255,255,0.6);
+  width: 30%;
+  font-size: 2em;
+  margin: 0 0 0 13%;
+  padding: 20px;
+}
+
+.details {
+  margin: 0 0 0 13%;
+}
+
+.em-purple {
+  color: purple;
+  font-weight: 400;
+}
+
+.cost {
+  font-weight: 400;
+}
+
+.smallpurple {
+  font-size: 17px;
+  color: purple;
+  /*margin-top: -33px;*/
+  /*margin-left: 19px;*/
+}
+
+ul {
+  float: left;
+}
+
+/*           BUY         */
+
+#buy {
+  background-image: url('../images/fairgrounds.jpeg');
+  background-size: cover;
+  background-repeat: none;
 }
