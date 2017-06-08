@@ -1,0 +1,94 @@
+/*     SCREEN SIZE BREAKPOINTS      */
+/*       GLOBAL & RESET        */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  font-size: 16px; }
+
+article, aside, details,
+figcaption, figure, footer,
+header, hgroup, main, menu,
+nav, section, summary {
+  display: block; }
+
+a {
+  background-color: transparent; }
+  a:active {
+    outline: 0; }
+  a:hover {
+    outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+.container {
+  height: 100vh;
+  width: 100vw; }
+
+/*           MAIN           */
+.centercontent {
+  display: flex;
+  justify-content: center; }
+
+#main {
+  background-image: url("../../images/cheers.jpg");
+  background-size: cover;
+  background-repeat: none; }
+
+.slidetext {
+  display: flex;
+  align-items: center;
+  font-size: 3.5em;
+  font-weight: 400;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: #803b84; }
+  @media only screen and (max-width: 65rem) {
+    .slidetext {
+      font-size: 2rem; } }
+
+/*         RENT           */
+#rent {
+  background-image: url("../../images/fairgrounds.jpeg");
+  background-size: cover;
+  background-repeat: none;
+  display: block; }
+
+.title {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1%;
+  font-size: 2.5rem; }
+
+.rent {
+  display: block;
+  padding: 0.5% 5%;
+  background-color: rgba(179, 132, 181, 0.8);
+  text-align: center; }
+  .rent > p {
+    color: white;
+    font-size: 2rem; }
+
+.columns {
+  display: inline-block;
+  width: 48%;
+  float: left; }
+
+.pricing, .rentinfo {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 5%;
+  padding: 5%; }
+
+/*           BUY         */
+#buy {
+  background-image: url("../../images/fairgrounds.jpeg");
+  background-size: cover;
+  background-repeat: none; }
+
+/*# sourceMappingURL=pagestyles.css.map */
