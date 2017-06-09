@@ -1,20 +1,16 @@
 /*     SCREEN SIZE BREAKPOINTS      */
 /*       GLOBAL & RESET        */
 html {
+  height: 100%;
+  width: 100%;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px; }
 
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  margin: 0;
-  font-size: 16px; }
-
-article, aside, details,
-figcaption, figure, footer,
-header, hgroup, main, menu,
-nav, section, summary {
-  display: block; }
+  margin: 0; }
 
 a {
   background-color: transparent; }
@@ -79,11 +75,35 @@ h1 {
   display: inline-block;
   width: 48%;
   float: left; }
+  @media only screen and (max-width: 65rem) {
+    .columns {
+      display: block;
+      width: 100%; } }
 
 .pricing, .rentinfo {
   background-color: rgba(255, 255, 255, 0.8);
   margin: 5%;
   padding: 5%; }
+
+.pricehead {
+  font-weight: 600;
+  font-size: 2.2rem; }
+
+.pricesub {
+  color: purple;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin: -5% 0 0 5%; }
+
+.right, .left {
+  display: inline-block;
+  font-size: 1.25rem; }
+
+.right {
+  font-weight: 600; }
+
+.left {
+  margin-left: 5%; }
 
 /*           BUY         */
 #buy {
